@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>userslogin</title>
+<title>usersrelogin</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
@@ -37,8 +37,9 @@
       <div class="menu_nav">
         <ul>
           <li class="active"><a href="index.html"><span>Home Page</span></a></li>
-		  <li><a href="userslogin.jsp">User</a></li>
+          <li><a href="userslogin.jsp">User</a></li>
           <li><a href="userslogin1.jsp"><span>Social Networks</span></a></li>
+
         </ul>
       </div>
       <div class="logo">
@@ -57,8 +58,8 @@
       <div class="mainbar">
         <form id="form1" name="form1" method="post" action="usersauthentication.jsp">
           <h3>&nbsp;</h3>
-          <h3><span class="style5">Welcome To User Login</span></h3>
-          <table width="464" border="0" align="center" cellpadding="2" cellspacing="2">
+          <h3><span class="style5">Invalid Login Details, Please Try Again!! </span></h3>
+          <table width="508" border="0" align="center" cellpadding="2" cellspacing="2">
             <tr>
               <td height="40" align="center" valign="middle"><label for="email"><span class="style34">Select Your Social Site (required)</span></label></td>
               <td><label>
@@ -67,6 +68,7 @@
                   <option>Facebook</option>
                   <option>Twitter</option>
                   <option>LinkedIn</option>
+                  <option>Pinterent</option>
                 </select>
                 </label>
                   </p>
@@ -86,7 +88,7 @@
                 <label for="name"></label>
                 </span>
               <label for="name"></label></td>
-              <td width="180"><input id="name" name="userid" class="text" /></td>
+              <td width="224"><input id="name" name="userid" class="text" /></td>
             </tr>
             <tr>
               <td height="40" align="center" valign="middle"><span class="style36"> <span class="style38">
@@ -108,7 +110,7 @@
               <td><div align="right"><a href="index.html" class="style32"><strong>Back</strong></a></div></td>
             </tr>
           </table>
-        </form>
+          </form>
         </div>
       <div class="clr"></div>
     </div>
@@ -122,5 +124,6 @@
     
 	
 </html>
+
 
 
